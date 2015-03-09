@@ -5,6 +5,8 @@ for line in f.readlines():
 	line_clean=line.strip().split('///')
 	ID_list.append(line_clean[1])
 for id in ID_list:
-	url="http"+str(id)
+	url="club.jd.com/review/"+str(id)+"-0-1-0.html"
+	print (url)
+	break
 
 
