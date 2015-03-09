@@ -4,6 +4,7 @@ ID_list=[]
 for line in f.readlines():
 	line_clean=line.strip().split('///')
 	ID_list.append(line_clean[1])
-print (ID_list)
+for id in ID_list:
+	url="http"+str(id)
 
 
